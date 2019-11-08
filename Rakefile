@@ -6,3 +6,9 @@ task :console do
   ARGV.clear
   IRB.start
 end
+
+
+directory "./db/migrate"
+# file "./db" do |t| 
+#   mkdir t.migrate
+#  end
